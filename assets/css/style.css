@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.6rem;
+}
+
+img {
+  max-width: 100%;
+  object-fit: cover;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 2.5rem 2.2rem;
+  align-items: center;
+}
+
+.menuLogo {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  min-width: 15rem;
+}
+
+.containerInputSearch {
+  width: 45rem;
+  display: flex;
+  align-items: center;
+  min-width: 20rem;
+}
+
+.containerInputSearch input {
+  width: inherit;
+  height: 4rem;
+  border: 1px solid #ccc;
+}
+
+.containerImageSearch {
+  width: 6rem;
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menuIcon {
+  display: flex;
+  gap: 2.5rem;
+  align-items: center;
+  min-width: 15rem;
+}
+
+.menuIcon img {
+  width: 2.4rem;
+  height: 2.4rem;
+}
+
+.menuIcon .avatar img {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+}
+
+main {
+  display: flex;
+  margin: 2rem 2.5rem;
+  gap: 2rem;
+}
+
+.sectionFrame {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  
+}
+
+.sectionFrame h2 {
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.containerActions {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.cardAction {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.cardAction p {
+  font-weight: 600;
+  font-size: 1.4rem;
+}
+
+.cardAction span {
+  font-weight: 400;
+  font-size: 1.4rem;
+  color: #515151;
+}
+
+.description {
+  font-weight: 400;
+  font-size: 1.4rem;
+  color: #515151;
+  width: 50%;
+}
+
+aside {
+  flex: 1;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  /* max-width: 32rem; */
+}
+
+.containerVideos {
+  display: flex;
+  gap: 1.2rem;
+  height: 12rem;
+}
+
+.containerVideos img {
+  height: 100%;
+  max-width: 40rem;
+}
+
+.containerVideos h3 {
+  font-weight: 600;
+  font-size: 1.4rem;
+}
+
+.containerVideos p {
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: #515151;
+}
+
+.containerTextVideo {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+@media screen and (max-width: 1024px) {
+  aside {
+    display: none;
+  }
+
+  .sectionFrame {
+    height: 70rem;
+  }
+}
