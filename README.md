@@ -19,7 +19,9 @@ Projeto consiste em  **reproduzir a interface de uma página do YouTube** com HT
 ---
 
 ## 📸 Prévia do Projeto
-<img width="1438" alt="image" src="https://github.com/user-attachments/assets/8e398c62-6a5d-4e35-bcb4-5e6eace37db6" />
+<img width="1438" alt="image" src="./assets/preview youtube.png" />
+
+<img width="1438" alt="image" src="./assets/preview youtube2.png" />
 
 
 ---
