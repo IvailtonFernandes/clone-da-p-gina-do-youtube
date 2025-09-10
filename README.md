@@ -40,7 +40,7 @@ clone-pagina-youtube-com-css/
 
 ## 🌐 Como visualizar
 
-Para visualizar o projeto rodando na web acesse esse link: https://ivailtonfernandes.github.io/Desafio-Classificador-de-nivel-de-Heroi/.
+Para visualizar o projeto rodando na web acesse esse link:  https://ivailtonfernandes.github.io/clone-da-pagina-do-youtube/.
 
 ---
 
